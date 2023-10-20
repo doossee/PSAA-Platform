@@ -21,11 +21,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
-SECRET_KEY = os.environ.get('SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&k3q+pmu)5%asj6yjpkag')
+SECRET_KEY = 'cg#p$g+j9tax!#a3cup@1$8obt2_+&k3q+pmu)5%asj6yjpkag'
 
-DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
+DEBUG = False
 
-ALLOWED_HOSTS = ['https://psaa-platform-b005bcc12a51.herokuapp.com/',]
+ALLOWED_HOSTS = ['https://psaa-platform-b005bcc12a51.herokuapp.com/','*']
 
 
 # Application definition
